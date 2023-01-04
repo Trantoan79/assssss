@@ -1,0 +1,160 @@
+* {
+    margin: 0px;
+}
+body {
+    display: grid;
+}
+/*KHỐI BANNER*/
+#banner {
+    display: grid;
+    background-image: url(../images/banner.jpg);
+}
+h1, .h1 {
+    text-transform: uppercase;
+    }
+ span {
+    text-transform: capitalize;
+    
+ }
+ .header {
+position:absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-image: url(../images/banner.jpg);
+   }
+   /*HẾT KHỐI BANNER*/
+/*KHỐI NAV-BAR*/
+.container {
+    display: grid;
+   }
+.a {
+    display: grid;
+    grid-template-columns: 235px 100px 100px 200px 100px 100px 235px;
+    text-align: center;
+    background-color: aquamarine;
+    margin-top: 20px;
+    }
+/*HẾT KHỐI NAV-BAR*/
+/*KHỐI TARGET */
+.target {
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 50px;
+}
+/* HẾT KHỐI TARGET */
+/*KHỐI THÔNG TIN NGHỀ NGHIỆP */
+.job-info {
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    column-gap: 5%;
+    row-gap: 20px;
+}
+
+.kinh-nghiem {
+    background-color: bisque;
+}
+.hoc-van {
+    background-color: royalblue;
+}
+.hoat-dong {
+    background-color: pink
+}
+.so-thich {
+    background-color: bisque;
+}
+.ngon-ngu {
+    background-color: royalblue;
+}
+.ky-nang {
+    background-color: pink;
+}
+
+
+/* HẾT KHỐI THÔNG TIN NGHỀ NGHIỆP */
+  .section-title {
+    text-transform: uppercase;
+    
+
+}
+.bg-grey {
+    display: grid;
+    background: #f7f7f7;
+}
+
+section > .container{
+    width: 1170px;
+    margin: auto;
+    display: block;
+    padding-bottom: 20px;    
+}
+
+
+ /* Centered text */
+/*.header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+
+
+
+/*Container holding the image and the text 
+
+#banner {
+    display: grid;
+grid-template-rows: 150px auto;
+  }
+.container {
+    display: grid;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .header {
+    display: grid;
+    grid-template-rows: 150px;
+  }
+  /* Bottom left text 
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top left text 
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text 
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text 
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+   Centered text 
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  */
+  
